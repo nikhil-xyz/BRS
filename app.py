@@ -25,7 +25,7 @@ def recommend(book_name):
     similar_items = sorted(list(enumerate(similarity_score[index])), key=lambda x: x[1], reverse=True)[1:6]
 
     for i in similar_items:
-        print(table.index[i[0]])
+        # print(table.index[i[0]])
         st.text(table.index[i[0]])
 
 st.title('Book Recommendation System')

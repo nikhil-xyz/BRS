@@ -1,3 +1,13 @@
+---
+title: Book Recommendation System
+emoji: 📹
+colorFrom: blue
+colorTo: red
+sdk: streamlit
+app_file: app.py
+pinned: false
+---
+
 # Book Recommendation System
 # Software And Tools Requirements
 
